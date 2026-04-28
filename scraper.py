@@ -5,6 +5,8 @@ Handles Wayback Machine (web.archive.org) URLs and standard novel sites
 using the WordPress Madara theme structure.
 """
 
+from __future__ import annotations
+
 import re
 import time
 import logging
